@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafic Arts - Login</title>
+ 
+<html>
+
+<head>
+
+<style>
+#conteiner {
+
+background:#ccc;
+width:960px;
+margin:0 auto;
+
+}
+.texto-destaque{
+font-weight:bold;
+}
+ul li{
+list-style:nome;
+margin-bottom:5px;
+display:inline;
+}
+</style>
+ 
+</head>
+
+<body>
+
+
+  <div id="conteiner">
+   <h1>Titulo principal</h1>
+     <p class="texto-destaque"> Texto sobre o titulo... </p>
+
+<ul>
+
+<li>item1</li>
+<li>item2</li>
+<li>item3</li>
+<li>item4</li>
+
+</ul>
+
+</div>
+
+</body>
+
+</html>
+
+<!-- 
+  Esse projeto foi feito usando HTML pra montar a estrutura da página e CSS pra deixar o visual mais estiloso.
+  O conteúdo tá centralizado dentro de uma div chamada "conteiner", com fundo cinza (usando #ccc, que é cor em hexadecimal).
+  O CSS deixa o texto em destaque mais "bold" (negrito) e os itens da lista aparecem um do lado do outro com estilo inline.
+  Tudo simples, direto e bem organizado — tipo um esqueleto básico de site, mas que já dá pra brincar bastante em cima.
+-->
