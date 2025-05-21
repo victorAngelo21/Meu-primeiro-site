@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      width: 300px;
+      backdrop-filter: blur(10px);
+    }
+
+    .login-container img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .input-group input {
+      border: none;
+      outline: none;
+      background: transparent;
+      color: white;
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    .input-group i {
+      color: white;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .options input {
+      margin-right: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+  <!-- Ícones do Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="login-container">
+    <img src="OIP.jpg" width="114" height="88" alt="png">
+    <div class="input-group">
+      <i class="fas fa-user"></i>
+      <input type="text" placeholder="Username">
+    </div>
+    
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" placeholder="Password">
+    </div>
+
+    <div class="options">
+      <label><input type="checkbox"> Remember me</label>
+      <a href="#" style="color: #aaa; text-decoration: none;">Forgot Password?</a>
+    </div>
+
+    <button>LOGIN</button>
+</div>
+
+</body>
+</html>
+
+
+<!-- 
+  Tela de Login estilosa feita com HTML + CSS puro.
+  Esse código cria uma interface de login com visual moderno, usando fundo com gradiente escuro, inputs com transparência e efeito de vidro (blur).
+  Foi usada a tag <img> para exibir uma imagem no topo da tela (OIP.jpg), que precisa estar na mesma pasta do HTML. 
+  O layout é responsivo e usa ícones da Font Awesome nos campos de usuário e senha.
+  Ainda não tem funcionalidades com JavaScript ou conexão com banco, mas serve como base visual para sistemas de login.
+  pra salvar salva como index.html
+-->
